@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Footer from '../components/Footer'
 import HeroSection from '../components/HeroSection'
 import InfoSection from '../components/InfoSection'
@@ -11,6 +11,9 @@ const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
 
     const toggle = () => setIsOpen(!isOpen)
+    useEffect(() => {
+       window.scroll(0,0)
+    }, [])
     return (
         <>
             <SideBar isOpen={isOpen} toggle={toggle}/>

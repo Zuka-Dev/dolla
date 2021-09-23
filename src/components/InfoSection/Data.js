@@ -1,3 +1,7 @@
+import Image1 from "../../Image1/svg-1.png"
+import Image2 from "../../Image2/svg-3.png"
+import Image3 from "../../Image3/svg-4.png"
+
 export const homeObjOne = {
     id: 'about',
     lightBg: false,
@@ -8,7 +12,7 @@ export const homeObjOne = {
     description:'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees.',
     buttonLabel:'Get Started',
     imgStart:false,
-    img: "images/svg-1.png",
+    img: Image1,
     alt:"car",
     dark:true,
     primary:true,
@@ -24,7 +28,7 @@ export const homeObjTwo = {
     description:'We have you covered no matter where you are located. All you need is an internet connection and a phone or computer.',
     buttonLabel:'Learn More',
     imgStart:true,
-    img: "images/svg-2.png",
+    img:Image2,
     alt:"PiggyBank",
     dark:false,
     primary:false,
@@ -40,7 +44,7 @@ export const homeObjThree = {
     description:'Get everything set up and ready  under 10 minutes. All you need to do is add your information and you\'re ready to go. ',
     buttonLabel:'Start Now',
     imgStart:false,
-    img: "images/svg-4.png",
+    img: Image3,
     alt:"Papers",
     dark:false,
     primary:false,

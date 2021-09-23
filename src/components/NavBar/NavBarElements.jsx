@@ -84,13 +84,12 @@ export const NavLinks = styled(LinkS)`
     padding:0 1rem;
     height: 100%;
     cursor:pointer;
-    margin-top:9px;
-    
+    margint-top:3px;
    &:hover{
         color:#01bf71
     }; 
     &.active {
-        border-bottom: 3px solid #01bf71;
+        border-bottom: 4px solid #01bf71;
     }
 `
 
