@@ -2,8 +2,8 @@ import React from 'react'
 import "bootstrap/dist/css/bootstrap.min.css"
 import "./App.css"
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
-import Home from './pages/Home'
 import SigninPage from './pages/signin'
+import Home from './components/Home'
 function App() {
   
   return (
