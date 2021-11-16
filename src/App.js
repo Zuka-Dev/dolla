@@ -1,5 +1,6 @@
 import React from 'react'
-import {BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import {BrowserRouter as Router} from 'react-router-dom'
+import { Route, Switch } from "react-router";
 import "./App.css"
 import SignInPage from './pages/signin'
 import Home from './pages'
